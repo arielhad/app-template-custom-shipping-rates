@@ -20,7 +20,7 @@ wixAppClient.shippingRates.provideHandlers({
       },
     }));
 
-    console.log('found shipping rates:', {shippingRates});
+    console.log('found shipping rates:', { shippingRates });
 
     // The SPI implementation: implement your own shipping rates.
     return {
