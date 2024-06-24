@@ -13,7 +13,7 @@ const defaultAppData: ShippingAppData = {
   shippingMethods: [
     {
       code: 'example-shipping-rate-standard',
-      title: 'Ariel SPI Demo - Standard Delivery',
+      title: 'Jerbi Standard Delivery',
       type: ShippingMethodType.STANDARD,
       unitOfMeasure: ShippingUnitOfMeasure.NUM_OF_ITEMS,
       logistics: {
@@ -27,7 +27,7 @@ const defaultAppData: ShippingAppData = {
     },
     {
       code: 'example-shipping-rate-express',
-      title: 'Ariel SPI Demo- Express Delivery',
+      title: 'Jerbi Express Delivery',
       type: ShippingMethodType.EXPRESS,
       unitOfMeasure: ShippingUnitOfMeasure.NUM_OF_ITEMS,
       logistics: {

@@ -15,7 +15,7 @@ wixAppClient.shippingRates.provideHandlers({
     }
     const { request, metadata } = payload;
 
-    console.log('Shipping rates - called', { request, metadata });
+    console.log('Get Shipping rates - called', { request, metadata });
 
     const appData = await getShippingAppData({ instanceId: metadata.instanceId! });
     const currency = metadata.currency;
@@ -39,6 +39,6 @@ wixAppClient.shippingRates.provideHandlers({
 });
 
 export async function POST(request: Request) {
-  console.info('Shipping rates::POST - called');
+  console.info('Shipping rates::POST - called', { requestBody: request.body });
   return wixAppClient.servicePlugins.processRequest(request);
 }
