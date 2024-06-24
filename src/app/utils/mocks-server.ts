@@ -174,7 +174,7 @@ export const getTestingShippingAppData = (): ShippingAppData => ({
   shippingMethods: [
     {
       code: 'test-shipping-rate-standard',
-      title: 'Testing Standard Delivery',
+      title: 'SPI Demo - Standard Jerbi Delivery',
       type: ShippingMethodType.STANDARD,
       unitOfMeasure: ShippingUnitOfMeasure.NUM_OF_ITEMS,
       logistics: {
@@ -188,7 +188,7 @@ export const getTestingShippingAppData = (): ShippingAppData => ({
     },
     {
       code: 'test-shipping-rate-express',
-      title: 'Testing Express Delivery',
+      title: 'SPI Demo - Express Jerbi Delivery',
       type: ShippingMethodType.EXPRESS,
       unitOfMeasure: ShippingUnitOfMeasure.NUM_OF_ITEMS,
       logistics: {
